@@ -1,5 +1,5 @@
-- 👋 Hi, I’m @Pritha-designer
-- 👀 I’m interested in Graphic design
+- 👋 Hi, I’m Pritha
+- 👀 I’m interested in Graphic designing
 
 
 <!---
