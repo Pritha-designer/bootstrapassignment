@@ -1,0 +1,53 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+#poster{
+    margin-left: 30%;
+    border: 10px solid antiquewhite;
+    padding: 8px;
+    height: 600px;
+    width: 500px;
+    box-sizing: border-box;
+   background-image: url(./images/advbg.jpeg);
+       
+}
+body{
+    background-color: black;
+}
+#poster h1{
+     color:rgb(255, 171, 16);  
+} 
+#poster h3{
+    color:rgb(255, 255, 255); 
+} 
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+#text{
+    margin-top: 10px;
+    display: flex;
+    justify-content:center;
+    border: 5px ;
+    border-color: white;
+    border-style: solid;
+    color: rgb(255, 171, 16);
+    background-color: rgb(69, 3, 99);
+}
+
+.sale{
+    display: flex;
+    width: 500px;
+    height: 100px;
+    justify-content: left;
+}
+td{
+    color: white;
+    font-size: larger;
+    padding-bottom: 10px;
+    margin: 5px;
+}

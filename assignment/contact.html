@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+    body{
+        background-image: url("./images/contact.jpg");
+        height: 100vh;
+        width:100%;
+        background-size: cover;
+        background-position: center;        
+    }
+    .contact h1{
+        text-align: center;
+        color: rgb(245, 202, 11);
+    }
+    .contact h3{
+       margin-left: 10px;
+        color: rgb(245, 202, 11);
+    }
+    .contact-box{
+        border-style: solid;
+        border-color: rgb(245, 202, 11);
+        border-width: 5px;
+        width: 60%;
+        height: 330px;
+        margin-left: 20%;
+        margin-top: 5%;
+    }
+    .input {   
+    color: rgb(245, 202, 11);
+    }
+    input{
+        width: 70%;
+    }
+    textarea{
+        width:70%;
+    }
+
+    button {
+    background-color: rgb(245, 202, 11);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 11px 13px;
+    border-radius: 20px;
+    margin-left: 75%;
+   
+}
+a{
+    text-decoration: none;
+}
+table{
+    width:500px;
+}
+
+</style>
+</head>
+<body>
+    <div class="contact"><h1>Contact Me</h1>
+        <div class="contact-box">
+       <h3>SEND YOUR MESSAGE</h3>
+            <form class="input">
+                <div class="input-row">
+                    <table style="margin: 10px;">
+                       <tr><td><label>Name:</label></td>
+                        <td><input type="text" placeholder="Enter Your Name"></td></tr> 
+                        <tr><td><label>Mobile No:</label></td>
+                        <td><input type="number" placeholder="Enter Your Mobile No"></td></tr>
+                        <tr><td><label>Email:</label></td>
+                        <td><input type="email" placeholder="Enter Your MailID"></td></tr>
+                        <tr><td><label>Message:</label></td>
+                        <td><textarea rows="5" placeholder="Enter Your Message"></textarea><br><br></td></tr>
+                    </table>
+                    <button type="submit"><a href="portfolio.html">SEND</a></button>
+                     </div>
+            </form>
+</body>
+</html>

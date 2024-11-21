@@ -1,0 +1,277 @@
+* {
+
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+}
+
+.header {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./images/portfoliobg.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 55px;
+    padding-left: 6%;
+    padding-right: 8%;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    font-weight: bold;
+
+}
+
+nav ul li a:hover {
+    color: rgb(16, 205, 238);
+    transition-duration: 0.5s;
+}
+
+.content {
+    position: absolute;
+    top: 40%;
+    left: 55%;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+.about {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    padding: 100px 0px;
+}
+
+.main {
+    width: 1000px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2 {
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.about-text h4 {
+    font-size: 20px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.about-text p {
+    color: aqua;
+    letter-spacing: 1px;
+    line-height: 18px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+button {
+    background-color: rgb(189, 15, 15);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 11px 13px;
+    border-radius: 20px;
+    margin-left: 300px;
+   
+}
+
+.skills {
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    position: relative;
+    margin: auto;
+
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+    animation: scroll 30s infinite;
+    /* animation-duration: 20s;*/
+
+}
+
+.skills h1 {
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.skills h3 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.card {
+    border-radius: 30px;
+    min-height: 250px;
+    min-width: 200px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.card:nth-child(odd) {
+    background: linear-gradient(-299deg, hsl(59, 93%, 47%), rgb(12, 212, 22));
+}
+
+.card:nth-child(even) {
+    background: linear-gradient(-299deg, rgb(82, 181, 238), rgb(241, 89, 89));
+}
+
+@keyframes scroll {
+    0% {
+        transform: translatex(0);
+
+    }
+
+    100% {
+        transform: translatex(calc(-250px * 5));
+    }
+
+}
+
+.box {
+    height: 100vh;
+    background-color: black;
+}
+
+.testimonials {
+    display: flex;
+    min-height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box h1 {
+    color: white;
+    text-align: center;
+}
+
+.box h5 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.box p {
+    color: aqua;
+    line-height: 16px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.test {
+    height: 300px;
+    width: 330px;
+    padding: 20px 30px;
+    background-color: brown;
+    margin: 15px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact {
+    color: white;
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+}
+.contact-box{
+    display: flex;
+    background-color: rgb(255, 232, 232);
+}
+
+.contact-left {
+    flex-basis: 50%;
+    padding: 40px;
+   
+
+}
+
+.contact-right {
+    flex-basis: 50%;
+    padding: 40px;
+    background-color: rgb(165, 42, 42);
+}
+.contact-right table td{
+    padding-bottom: 10px;
+   text-align: left;
+}
+
+.contact h1 {
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+.contact-left input {
+    color: rgb(3, 3, 3);
+    margin-bottom: 10px;
+}
+
+/*.input-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-row .input-group {
+    flex-basis: 45%;
+}*/
+
+input {
+    width: 40%;
+    border: 1px solid brown;
+   
+}
+
+textarea {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid brown;
+    color: rgb(0, 0, 0);
+}
+
+label {
+    margin-bottom: 5px;
+    display: block;
+    color: rgb(0, 0, 0);
+}
+
+tr td:first-child {
+    padding-right: 20px;
+}
