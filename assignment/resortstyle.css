@@ -1,0 +1,171 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bolder;
+}
+
+.skylinelogo
+{  
+     
+         width:100px;
+         height:100px;
+        margin-left:40px;
+      
+} 
+.companyname h2
+{
+   color:white; 
+   text-shadow: 2px 2px black;
+  
+}
+.companyname
+{
+    width:60%;
+}
+.navbar
+{
+    background-color:rgb(12, 76, 194);
+    height: 105px;
+}
+
+.booknow
+{
+margin-right: 5%;
+width: 140px;
+height: 40px;
+font-size: large;
+border: none;
+border-radius: 14px;
+background-color:white;
+color:navy;
+transition-duration: 0.4s;
+}
+.booknow:hover
+{
+
+background-color:navy;
+color:white;
+}
+
+.booknow:active {
+    transform: translateY(4px);
+  }
+ul{
+    margin-left:20%;
+}
+ul li
+{
+    padding:10px 30px;
+}
+.container
+    {
+   display: flex;
+   flex-direction: row;
+   height:50px;
+  
+}
+
+    .container ul li {
+    list-style-type: none;
+    display:inline-block;
+    padding: 20px 35px;
+    font-weight:bolder;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+
+a {
+    text-decoration: none;
+    color:navy;
+}
+a:hover {
+    color: rgb(208, 215, 216);
+    transition-duration: 0.5s;
+}
+.carousel-inner img{
+    height:450px;
+}
+
+
+.aboutheader
+{
+    background-color:rgb(12, 76, 194);
+    height:60px;
+    padding: 15px;
+    color:white;
+}
+.aboutheader h2
+{text-align: center;}
+
+.pagehead img{
+    height:300px;
+}
+.card img{
+    height:280px;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.col img{
+    width:220px;
+    height:200px;
+}
+.col{
+    box-shadow: 5px;
+}
+.container1{
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.col:hover{
+    opacity: 0.7; 
+    transform:scale(0.97);
+   
+}
+.contact{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    height:450px;
+    background-color:rgb(12, 76, 194);
+    color:white;
+ 
+}
+    
+.contact a{
+   color:white;
+}
+.box
+{
+padding:50px;
+}
+.enquire
+{
+background-color: white;
+color:navy;
+border-radius: 10px;
+border-style: none;
+width:120px;
+height:30px;
+}
+.enquire:hover
+{
+
+background-color:navy;
+color:white;
+}
+
+.enquire:active {
+    transform: translateY(4px);
+  }
+form tr{
+    padding:5px;
+    
+}
+.contact h4{
+    font-weight: bolder;
+}
+.box{
+    display: flexbox;
+    height: 340px;
+}
