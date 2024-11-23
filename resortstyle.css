@@ -5,10 +5,22 @@
 
 .skylinelogo
 {  
-         margin-left: 35%;
+     
          width:100px;
          height:100px;
+        margin-left:40px;
+      
 } 
+.companyname h2
+{
+   color:white; 
+   text-shadow: 2px 2px black;
+  
+}
+.companyname
+{
+    width:60%;
+}
 .navbar
 {
     background-color:rgb(12, 76, 194);
